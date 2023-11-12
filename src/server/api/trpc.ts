@@ -27,9 +27,6 @@ interface CreateContextOptions {
   auth: SignedInAuthObject | SignedOutAuthObject;
 }
 
-interface AuthContext {
-}
-
 /**
  * This helper generates the "internals" for a tRPC context. If you need to use it, you can export
  * it from here.
